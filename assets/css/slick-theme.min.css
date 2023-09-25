@@ -1,0 +1,102 @@
+@charset 'UTF-8';
+.slick-loading .slick-list {
+	background: #fff url('./ajax-loader.gif') center center no-repeat
+}
+
+@font-face {
+	font-family: 'slick';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/slick.eot');
+	src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg')
+}
+
+.slick-dots {
+    position: absolute;
+    bottom:-52px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.slick-dots li {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer;
+    background: #777777;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    transition: opacity 0.5s, background-color 0.5s, width 0.5s;
+    left: 0;
+	transition-delay: 0.2s, 0.2s, 0s;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+   background: unset;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+	outline: 0
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+	opacity: 1
+}
+
+.slick-dots li:before {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 12px;
+	height: 12px;
+	text-align: center;
+    background-color: #fff;
+    content: '';
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active:before {
+    background-color:unset;
+}
+
+.slick-dots li.slick-active button:before {
+	opacity: .75;
+	color: black
+}
+.slick-dots li.slick-active{
+    border: 3px solid #E47825;
+    width: 62px;
+    transition-delay: 0s;
+    border-radius: 100px;
+    background-color: unset;
+}
+.carousel-slick button , .carousel-slick-testimonial button{
+	display: none !important;
+}
+
+@media (max-width:767px){
+    .slick-dots {
+        position: absolute;
+        bottom: -4px;
+    }
+}

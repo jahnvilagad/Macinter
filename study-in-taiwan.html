@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      <!-- SEO Meta Tags-->
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="author" content="">
+      <!-- Viewport-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Favicon and Touch Icons-->
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo-180x180.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo-16x16.png">
+      <!-- Main Styles + Bootstrap-->
+      <link rel="stylesheet" media="screen" href="assets/css/style.css">
+      <link rel="stylesheet" media="screen" href="assets/css/custom.css">
+      <link rel="stylesheet" media="screen" href="assets/css/slick.min.css">
+      <link rel="stylesheet" media="screen" href="assets/css/slick-theme.min.css">
+   </head>
+   <!-- Body-->
+   <body>
+      <div class="page-loading active">
+         <div class="page-loading-inner">
+            <div class="page-spinner"></div>
+            <span>Loading...</span>
+         </div>
+      </div>
+      <main class="page-wrapper">
+         <nav class="navbar navbar-light"  style="background-color: #E47825;">
+            <div class="container px-0 px-md-3">
+               <div class="navbar-brand fs-base">
+                  <ul class="list-unstyled d-md-flex d-block align-items-center m-0">
+                     <li class="text-white m-0"> Have any question?<a href="tel:+123 456 7890" class="fw-bold text-white ms-2">+123 456 7890</a></li>
+                     <li class="text-white m-0"><i class="bi bi-envelope-open me-2"></i>Email Us : <a href="tel:Info@meiyu.com" class="fw-bold text-white ms-1">Info@meiyu.com</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <header class="header navbar navbar-expand-lg navbar-light navbar-sticky navbar-floating" data-scroll-header
+            data-fixed-element>
+            <div class="container px-0 px-xl-3">
+               <a class="navbar-brand flex-shrink-0" href="index.html">
+               <img class="d-none d-lg-block pb-2" src="assets/img/logo/Logo.svg" alt="logo" class="img-fluid">
+               <img class="d-lg-none" src="assets/img/logo/Logo.svg" alt="logo" class="img-fluid">
+               </a>
+               <div class="d-flex align-items-center order-xl-3 ms-xl-3 ms-auto"><a class="btn btn-primary"
+                  href="application-form.html">APPLY ONLINE!</a></div>
+               <button class="navbar-toggler ms-xl-auto ms-2" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#primaryMenu">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+                  <div class="offcanvas-header navbar-shadow">
+                     <h5 class="mt-1 mb-0">Menu</h5>
+                     <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body justify-content-end">
+                     <!-- Menu-->
+                     <ul class="navbar-nav">
+                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="study-in-taiwan.html">Study in Taiwan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="study-programmes.html">Study Programmes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="application-process.html">Application Process</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <section class="banner bg-dark py-10" data-jarallax data-speed="0.25">
+            <div class="breadcrumb-bg" style="background-image: url(assets/img/feature/about-breadcrumbs.jpg);"></div>
+            <div class="container pt-3 pt-md-7 text-center">
+               <div class="row">
+                  <div class="col-md-12 col-lg-8">
+                     <div class="text-start">
+                        <nav aria-label="breadcrumb">
+                           <ol class="breadcrumb breadcrumb-light ">
+                              <li class="breadcrumb-item fs-md fw-bold text-white">You are Here: <a href="#"> Home </a></li>
+                              <li class="breadcrumb-item fs-md fw-bold text-white active" aria-current="page"> Study in Taiwan </li>
+                           </ol>
+                        </nav>
+                        <h2 class="fs-1 mt-2 fw-bold text-white">Study in Taiwan</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section>
+            <div class="container pt-3 pt-md-5 pt-lg-6">
+               <div  class="study-in-taiwan p-4 p-md-3 p-lg-5 mb-4">
+                  <!-- Forms validation: status tooltips -->
+                   <!-- Form Start -->
+                  <form class="needs-validation" novalidate="">
+                     <div class="row align-items-center">
+                        <div class="col-md-10 col-lg-10 col-xl-10 mb-3">
+                           <label for="validationTooltip01" class="form-label">Course/Programme Name</label>
+                           <input class="form-control" list="datalist-options" id="datalist-input" placeholder="Search by Course/Programme Name">
+                           <datalist id="datalist-options">
+                              <option value="National Central University" data-value="12"></option>
+                              <option value="National University" data-value="11"></option>
+                            </datalist>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mt-3">
+                           <div><button class="btn btn-primary w-100" type="submit">Search</button></div>
+                        </div>
+                     </div>
+
+                     <div class="text-center mb-4">
+                        <p class="m-0 fw-bold fs-lg">OR</p>
+                     </div>
+
+                     <div class="row">
+                        <div class="col-md-4 col-lg-4 col-xl-4 mb-3">
+                           <label for="validationTooltip02" class="form-label">Programme Level</label>
+                            <select class="form-select" id="select-location" name="location">
+                                  <option value="">Select Programme Level</option>
+                                  <option value="1">Programme Level</option>
+                                  <option value="2">Programme Level</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mb-3">
+                           <label for="validationTooltip02" class="form-label">Country</label>
+                              <select class="form-select" id="select-location" name="location">
+                                    <option value="">Select City</option>
+                                    <option value="1">India</option>
+                                    <option value="2">India</option>
+                              </select>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-xl-4 mb-3">
+                           <label for="validationTooltipUsername" class="form-label">City</label>
+                              <select class="form-select" id="select-location" name="location">
+                              <option value="">Select City</option>
+                                                                <option value="9">Changhua</option>
+                            
+                                            <option value="18">Chiayi</option>
+                            
+                                            <option value="19">Douliu</option>
+                            
+                                            <option value="23">Hsinchu</option>
+                            
+                                            <option value="22">Hualien</option>
+                            
+                                            <option value="15">Huwei Township</option>
+                            
+                                            <option value="20">Jiaoxi Township</option>
+                            
+                                            <option value="11">Kaohsiung</option>
+                            
+                                            <option value="24">Keelung</option>
+                            
+                                            <option value="12">Minxiong Township</option>
+                            
+                                            <option value="17">Neipu Township</option>
+                            
+                                            <option value="7">New Taipei</option>
+                            
+                                            <option value="21">Shoufeng Township</option>
+                            
+                                            <option value="8">Taichung</option>
+                            
+                                            <option value="10">Tainan</option>
+                            
+                                            <option value="5">Taipai</option>
+                            
+                                            <option value="6">Taoyuan</option>
+                            
+                              </select>
+                        </div>
+                     </div>
+                     <div class=" mt-2 mb-0 d-flex justify-content-md-center justify-content-start">
+                        <div class="search-btn"><button class="btn btn-primary w-100" type="submit">Search</button></div>
+                        <div class="search-btn"><button type="button" class="btn btn-dark w-100 ms-3">Reset</button></div> 
+                     </div>
+                   
+                  </form>
+               </div>
+
+            </div>
+            <!-- Form End -->
+
+            <div class="container py-3 study-detail">
+               <p class="m-0">Taiwan's west coast is the hub of one of the most popular cities. The 22 m high buddha statue is located here. The city is comparatively cheaper to live in and transportation is something that is fairly cheap as compared to other cities in taiwan.</p>
+            </div>
+
+
+
+            <!-- Universities List start -->
+            <div class="container pb-5">
+               <div class="row universities-list">
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni1.jpg" class="img-fluid " alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Central University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni-8.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Cheng Kung University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni-3.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Chengchi University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni-4.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Chi Nan University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row universities-list">
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni1.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Central University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni-8.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Cheng Kung University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni-3.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Chengchi University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 pt-4 pt-md-5">
+                     <div class="card border-0">
+                        <div class="card-header p-0">
+                           <a href="university-details.html"><img src="assets/img/feature/uni-4.jpg" class="img-fluid" alt="Summer English Courses"></a>
+                        </div>
+                        <div class="uni-logo">
+                           <img src="assets/img/feature/uni-1.png" class="img-fluid" alt="Summer English Courses">
+                        </div>
+                        <div class="card-body">
+                           <div class="card-content p-0">
+                              <div class="card-title fw-bold fs-xl"> <a href="#"> National Chi Nan University</a></div>
+                              <div class="card-text">
+                                 <ul class="list-unstyled fs-sm pb-1 d-table mx-md-0">
+                                    <li class="d-flex mb-2"><i class="bi bi-book fs-lg me-2"></i><span class="mt-1">Master Degree</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-geo-alt fs-lg me-2"></i><span class="mt-1">Zhongli District, Taoyuan City</span></li>
+                                    <li class="d-flex mb-2"><i class="bi bi-coin fs-lg me-2"></i><span class="mt-1">2000 USD per Year</span></li>
+                                 </ul>
+                                 <div class="card-line"></div>
+                              </div>
+                              <div class="uni-link mt-3">
+                                 <a href="university-details.html" class="fw-bold fs-md ">Learn More <i class="bi bi-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Pagination: with icons -->
+<nav aria-label="Page navigation example">
+   <ul class="pagination justify-content-center align-items-center py-5">
+     <li class="page-item">
+       <a href="#" class="page-link" aria-label="Previous">
+         <i class="bi-chevron-left"></i>
+       </a>
+     </li>
+     <li class="page-item d-sm-none">
+       <span class="page-link page-link-static">2 / 5</span>
+     </li>
+     <li class="page-item d-none d-sm-block">
+       <a href="#" class="page-link">1</a>
+     </li>
+     <li class="page-item active d-none d-sm-block" aria-current="page">
+       <span class="page-link">
+         2
+         <span class="visually-hidden">(current)</span>
+       </span>
+     </li>
+     <li class="page-item d-none d-sm-block">
+       <a href="#" class="page-link">3</a>
+     </li>
+     <li class="page-item d-none d-sm-block">
+       <a href="#" class="page-link">4</a>
+     </li>
+     <li class="page-item d-none d-sm-block">
+       <a href="#" class="page-link">5</a>
+     </li>
+     <li class="page-item">
+       <a href="#" class="page-link" aria-label="Next">
+         <i class="bi-chevron-right"></i>
+       </a>
+     </li>
+   </ul>
+ </nav>
+                  <div class="text-center">
+                     <a class="btn btn-primary" href="application-form.html">Load More</a>
+                  </div>
+               </div>
+            </div>
+            <!-- Universities List start -->
+         </section>
+
+         <!-- Living Section Start -->
+         <section class=" about-us-bg">
+            <div class="container py-3 py-lg-7 py-md-3">
+               <div class="row">
+                  <div class="col-md-12 col-lg-6 col-sm-12">
+                     <div class="text-start">
+                        <div class="study-title d-inline-block">
+                           <h3 class="fs-lg fw-normal position-relative">Accommodation</h3>
+                           <h2 class="fs-2 mb-4 fw-bold">Cost of Studying and<br> Living in Taiwan </h2>
+                        </div>
+                        <p class="mb-4 text-justify">Tuition fees in Taiwan will depend on what course you take, and your institution of choice. If you choose to study at a private institution, you will be charged more than a public institution. Subjects such as medicine will also cost more. On average, international students should expect to pay between TWD 50,000 and TWD 65,000 per semester. If you wish to study a programme such as an MBA, you should expect to pay around TWD 150,000 per semester. There are two semesters per academic year.</p>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                           <li class="nav-item">
+                              <a href="#visas" class="nav-link active fw-bold" data-bs-toggle="tab" role="tab">
+                              <i class="fi-home me-2"></i>
+                              Visas
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="#language" class="nav-link  fw-bold" data-bs-toggle="tab" role="tab">
+                              <i class="fi-user me-2"></i>
+                              Language
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="#accommodation" class="nav-link  fw-bold" data-bs-toggle="tab" role="tab">
+                              <i class="fi-user me-2"></i>
+                              Accommodation
+                              </a>
+                           </li>
+                        </ul>
+                        <!-- Tabs content -->
+                        <div class="tab-content">
+                           <div class="tab-pane fade show active" id="visas" role="tabpanel">
+                              <p class="text-justify">If you wish to study in Taiwan as an international student, you will need a visa. The application process can be viewed as complex, but there will be plenty of assistance if you require it. Once you have been accepted by an institution, you will need to apply for a student visa. Then once you have entered Taiwan, you will need to apply for a resident visa. If you do need more assistance for this process, you institution will be able to help.</p>
+                           </div>
+                           <div class="tab-pane fade" id="language" role="tabpanel">
+                              <p class="text-justify">If you wish to study in Taiwan as an international student, you will need a visa. The application process can be viewed as complex, but there will be plenty of assistance if you require it. Once you have been accepted by an institution, you will need to apply for a student visa. Then once you have entered Taiwan, you will need to apply for a resident visa. If you do need more assistance for this process, you institution will be able to help.</p>
+                           </div>
+                           <div class="tab-pane fade" id="accommodation" role="tabpanel">
+                              <p class="text-justify">If you wish to study in Taiwan as an international student, you will need a visa. The application process can be viewed as complex, but there will be plenty of assistance if you require it. Once you have been accepted by an institution, you will need to apply for a student visa. Then once you have entered Taiwan, you will need to apply for a resident visa. If you do need more assistance for this process, you institution will be able to help.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 pb-2 pb-lg-0 pd-md-0 study-taiwan">
+                     <div class="d-lg-block d-none">
+                       <div class="living-taiwan-layer-1 d-none d-md-block shadow">
+                         <img src="assets/img/feature/living-2.jpg" alt="who-we-are" class="img-fluid">
+                       </div>
+                       <div class="living-taiwan-layer-2">
+                         <img src="assets/img/feature/living-1.png" alt="who-we-are" class="img-fluid">
+                       </div>
+                     </div>
+
+                     <div class="d-block d-lg-none">
+                        <img src="assets/img/feature/accomodation.jpg" class="img-fluid" alt="Accomodation">
+                     </div>
+                   </div>
+               </div>
+            </div>
+         </section>
+         <!-- Living Section End -->
+
+
+          <!-- Taiwan Cites Section Start -->
+         <section class="py-0 py-md-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="text-center">
+                  <div class="study-title d-inline-block">
+                    <h3 class="fs-lg fw-normal position-relative">You will study in taiwan</h3>
+                    <h2 class="fs-2 mb-4 fw-bold">Popular Cities For Study</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+  
+            <div class="carousel-slick">
+               <div>
+                 <div class="slick-card">
+                   <div class="card-header border-0">
+                     <img src="assets/img/feature/taipei.jpg" class="img-fluid" alt="Taipei">
+                   </div>
+                   <div class="card-body">
+                     <div class="card-content">
+                       <div class="card-title">Taipei</div>
+                       <div class="card-text">
+                         <p>Total University: 30</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>    
+               <div>
+                 <div class="slick-card">
+                   <div class="card-header border-0">
+                     <img src="assets/img/feature/taoyuan.jpg" class="img-fluid" alt="Taoyuan">
+                   </div>
+                   <div class="card-body">
+                     <div class="card-content">
+                       <div class="card-title">Taoyuan</div>
+                       <div class="card-text">
+                         <p>Total University: 30</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div>
+                 <div class="slick-card">
+                   <div class="card-header border-0">
+                     <img src="assets/img/feature/chiayi.jpg" class="img-fluid" alt="Chiayi">
+                   </div>
+                   <div class="card-body">
+                     <div class="card-content">
+                       <div class="card-title">Chiayi</div>
+                       <div class="card-text">
+                         <p>Total University: 30</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>  
+               </div>
+               <div>
+                 <div class="slick-card">
+                   <div class="card-header border-0">
+                     <img src="assets/img/feature/taipei.jpg" class="img-fluid" alt="Taipei">
+                   </div>
+                   <div class="card-body">
+                     <div class="card-content">
+                       <div class="card-title">Taipei</div>
+                       <div class="card-text">
+                         <p>Total University: 30</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>    
+               <div>
+                 <div class="slick-card">
+                   <div class="card-header border-0">
+                     <img src="assets/img/feature/taoyuan.jpg" class="img-fluid" alt="Taoyuan">
+                   </div>
+                   <div class="card-body">
+                     <div class="card-content">
+                       <div class="card-title">Taoyuan</div>
+                       <div class="card-text">
+                         <p>Total University: 30</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div>
+                 <div class="slick-card">
+                   <div class="card-header border-0">
+                     <img src="assets/img/feature/chiayi.jpg" class="img-fluid" alt="Chiayi">
+                   </div>
+                   <div class="card-body">
+                     <div class="card-content">
+                       <div class="card-title">Chiayi</div>
+                       <div class="card-text">
+                         <p>Total University: 30</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>  
+               </div>   
+             </div>
+        </section>
+        <!-- Taiwan Cites Section End -->
+
+
+         <!-- Living Section Start -->
+         <section class=" about-us-bg">
+          <div class="container py-5 py-lg-7 py-md-4">
+             <div class="row">
+              <div class="col-md-12 col-lg-6 col-sm-12">
+                <!-- Controls position: Dots outside + Arrows inside -->
+                <div class="carousel slide" id="carouselExample1" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item">
+                      <img src="assets/img/feature/tab-1.jpg" class="img-fluid" alt="Taoyuan">
+                    </div>
+                    <div class="carousel-item active">
+                      <img src="assets/img/feature/tab-1.jpg" class="img-fluid" alt="Taoyuan">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/feature/tab-1.jpg" class="img-fluid" alt="Taoyuan">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExample1" role="button" data-bs-slide="prev"><span class="" aria-hidden="true"><i class="bi bi-arrow-left-circle text-white fs-2"></i></span><span class="visually-hidden">Previous</span></a>
+                  <a class="carousel-control-next" href="#carouselExample1" role="button" data-bs-slide="next"><span class="" aria-hidden="true"><i class="bi bi-arrow-right-circle text-white fs-2"></i></span><span class="visually-hidden">Next</span></a>
+    
+                </div>
+                
+             </div>
+                <div class="col-md-12 col-lg-6 col-sm-12 pt-md-4">
+                   <div class="text-start">
+                      <div class="study-title d-inline-block">
+                         <h3 class="fs-lg fw-normal position-relative">Accommodation</h3>
+                         <h2 class="fs-2 mb-4 fw-bold">Student Life in Taiwan</h2>
+                      </div>
+                      <p class="mb-4">For our visiting students to Taipei, TMI provides quality accommodation rentals in Taiwan.</p>
+                      <!-- Nav tabs -->
+                      <ul class="nav nav-tabs" role="tablist">
+                         <li class="nav-item">
+                            <a href="#campus" class="nav-link active fw-bold" data-bs-toggle="tab" role="tab">
+                            <i class="fi-home me-2"></i>
+                            The campus
+                            </a>
+                         </li>
+                         <li class="nav-item">
+                            <a href="#activities" class="nav-link  fw-bold" data-bs-toggle="tab" role="tab">
+                            <i class="fi-user me-2"></i>
+                            Student Activities
+                            </a>
+                         </li>
+                         <li class="nav-item">
+                            <a href="#life" class="nav-link  fw-bold" data-bs-toggle="tab" role="tab">
+                            <i class="fi-user me-2"></i>
+                            Life in Taiwan
+                            </a>
+                         </li>
+                      </ul>
+                      <!-- Tabs content -->
+                      <div class="tab-content">
+                         <div class="tab-pane fade show active" id="campus" role="tabpanel">
+                            <p class="text-justify">You wish to study in Taiwan as an international student, you will need a visa. The application process can be viewed as complex, but there will be plenty of assistance if you require it. Once you have been accepted by an institution, you will need to apply for a student visa. Then once you have entered Taiwan, you will need to apply for a resident visa. If you do need more assistance for this process, you institution will be able to help.</p>
+                         </div>
+                         <div class="tab-pane fade" id="activities" role="tabpanel">
+                            <p class="text-justify">Wish to study in Taiwan as an international student, you will need a visa. The application process can be viewed as complex, but there will be plenty of assistance if you require it. Once you have been accepted by an institution, you will need to apply for a student visa. Then once you have entered Taiwan, you will need to apply for a resident visa. If you do need more assistance for this process, you institution will be able to help.</p>
+                         </div>
+                         <div class="tab-pane fade" id="life" role="tabpanel">
+                            <p class="text-justify">Study in Taiwan as an international student, you will need a visa. The application process can be viewed as complex, but there will be plenty of assistance if you require it. Once you have been accepted by an institution, you will need to apply for a student visa. Then once you have entered Taiwan, you will need to apply for a resident visa. If you do need more assistance for this process, you institution will be able to help.</p>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </section>
+       <!-- Living Section End -->
+
+       <section class="contact-bg py-4 py-md-5 py-lg-7 position-relative">
+        <div class="container">
+          
+  
+          <div class="row contact-details">
+            <div class="col-md-5 mt-4 mt-lg-6">
+             <h1 class="fs-3 text-white">Get in touch for any <br>
+                questions</h1>
+                <div class="title-line"></div>
+                <div class="d-flex align-items-start mt-5 mb-4">
+                    <div class="border-icon"><i class="bi bi-geo-alt h3 mb-0 text-light"></i></div>
+                    <div class="ps-3">
+                        <h6 class="text-white fs-5 mb-1 mt-0">Find us at the office</h6>
+                      <p class="text-light mb-2 lh-lg">Bayswater Business Centre<br> 28 A/B Queenswa <br> London W2 3RX  </p>
+                    </div>
+                </div>
+  
+                <div class="d-flex align-items-start mb-4">
+                    <div class="border-icon"><i class="bi bi-telephone h3 mb-0 text-light"></i></div>
+                    <div class="ps-3">
+                        <h6 class="text-white fs-5 mb-1 mt-0">Give us a ring</h6>
+                      <a class="d-inline-block text-light text-decoration-none mb-2" href="tel:+44 (0)207 078 4075">+44 (0)207 078 4075</a><br>
+                      <a class="d-inline-block text-light text-decoration-none mb-2" href="tel:+44 (0)786 176 5616">+44 (0)786 176 5616</a>
+                    </div>
+                </div>
+  
+                <div class="d-flex align-items-start mb-4">
+                    <div class="border-icon"><i class="bi-envelope-open h3 mb-0 text-light"></i></div>
+                    <div class="ps-3">
+                        <h6 class="text-white fs-5 mb-1 mt-0">E-mail us</h6>
+                        <a class="d-inline-block text-light text-decoration-none mb-2" href="mailto:info@meiyu.co.uk">info@meiyu.co.uk</a><br>
+                        <a class="d-inline-block text-light text-decoration-none mb-2" href="mailto:info@meiyu.co.uk">info@meiyu.co.uk</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="bg-white p-4 p-md-5 contact-form">
+                    <div class=" mx-auto" style="max-width: 720px;">
+                        <h2 class="h3 pb-1">Ready to get started with us? </h2>
+                        <p class="mb-4">Get the right service, determine what you need contact us for the most suitable <br>services.
+                        </p>
+                        <form class="needs-validation row" novalidate="">
+                           <div class="col-sm-6 mb-3 pb-1">
+                             <label for="cont-fn" class="mb-2">Your Name<sup class="text-danger ms-1">*</sup></label>
+                             <input class="form-control" type="text" id="cont-fn" placeholder="Your Name" required="">
+                             <div class="invalid-feedback">Please enter your full name!</div>
+                           </div>
+                           <div class="col-sm-6 mb-3 pb-1">
+                             <label  for="cont-email"  class="mb-2">Your Email<sup class="text-danger ms-1">*</sup></label>
+                             <input class="form-control" type="email" id="cont-email" placeholder="Your Email" required="">
+                             <div class="invalid-feedback">Please enter a valid email address!</div>
+                           </div>
+                           <div class="col-sm-12 mb-3 pb-1">
+                             <label  for="cont-phone"  class="mb-2">Phone number</label>
+                             <input class="form-control bg-image-0" type="text" id="cont-phone" data-format="custom" data-delimiter="-" data-blocks="2 4 2 2" placeholder="Phone number">
+                           </div>
+                           <div class="col-12 mb-3 pb-1">
+                             <label  for="cont-message"  class="mb-2">Message<sup class="text-danger ms-1">*</sup></label>
+                             <textarea class="form-control" id="cont-message" rows="4" placeholder="Write your message here" required=""></textarea>
+                             <div class="invalid-feedback">Please write a message!</div>
+                           </div>
+                           <div class="col-12 pt-2">
+                             <button class="btn btn-primary" type="submit">Send Message</button>
+                           </div>
+                         </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+  
+         
+  
+          
+      </div>
+    </section>
+    <section class="container py-5 py-md-7">
+      <div class="study-title d-inline-block">
+        <h3 class="fs-lg fw-normal position-relative">MeiYu Study Supporters Universities</h3>
+        <h2 class="fs-2 mb-4 fw-bold">Leading Universities in Taiwan</h2>
+      </div>
+
+      <div class="row pt-4">
+         <div class="col-md-4 col-lg-2 col-6 mb-3 mb-lg-0">
+           <img src="assets/img/feature/factory.png" class="img-fluid shadow">
+         </div>
+         <div class="col-md-4 col-lg-2 col-6 mb-3 mb-lg-0">
+           <img src="assets/img/feature/dummy.png" class="img-fluid shadow">
+         </div>
+         <div class="col-md-4 col-lg-2 col-6 mb-3 mb-lg-0">
+           <img src="assets/img/feature/iovation.png" class="img-fluid shadow">
+         </div>
+         <div class="col-md-4 col-lg-2 col-6 mb-3 mb-lg-0">
+           <img src="assets/img/feature/studygroup.png" class="img-fluid shadow">
+         </div>
+         <div class="col-md-4 col-lg-2 col-6 mb-3 mb-lg-0">
+           <img src="assets/img/feature/ascensores.png" class="img-fluid shadow">
+         </div>
+         <div class="col-md-4 col-lg-2 col-6 mb-3 mb-lg-0">
+           <img src="assets/img/feature/university-of-roehampton.png" class="img-fluid shadow">
+         </div>
+       </div>
+    </section>
+
+
+    <footer class="bg-secondary pt-3 pt-md-6 footer">
+      <div class="container">
+        <div class="row join-newslatter align-items-center px-0 px-md-6">
+          <div class="col-lg-6">
+            <div class="study-title d-inline-block">
+              <h3 class="fs-lg fw-bold position-relative text-white">Stay Updated</h3>
+              <h2 class="fs-2 fw-bold text-white mb-2">Join Our Newslatter</h2>
+            </div>
+            <p class="text-white">Sign up to receive Timely useful information in your inbox. </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="border p-2">
+              <form class="d-flex">
+                <input class="form-control ps-3" type="text" id="" placeholder="Enter your email" required="">
+                <button class="btn btn-primary shadow fw-bold" type="submit">SUBSCRIBE<i
+                    class="bi bi-send ms-2"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row pt-0 pt-md-4 footer-menu-link">
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-logo">
+              <a href="index.html"><img src="assets/img/logo/logo.svg" class="img-fluid" alt="logo"></a>
+              <p class="text-white mt-4 fs-sm mb-3 text-justify">
+                MeiYu is THE study abroad provider by definition.
+                We are dedicated to help students from all over the world to study English during summer courses or
+                integrate prestigious universities in UK.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 ps-3 ps-lg-6">
+            <h4 class="text-white mb-3 mb-md-5">Navigation</h4>
+            <ul class="ps-0">
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="index.html"
+                  class="text-white">Home</a></li>
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="about.html"
+                  class="text-white">About MeiYu</a></li>
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="study-programmes.html"
+                  class="text-white">Study Programmes</a></li>
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="application-process.html"
+                  class="text-white">Application Process</a></li>
+
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 ps-3 ps-lg-6">
+            <h4 class="text-white mb-3 mb-md-5">Useful Link</h4>
+            <ul class="ps-0">
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="/"
+                  class="text-white">Universities in Taiwan</a></li>
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="#"
+                  class="text-white">Study Locations</a></li>
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="#"
+                  class="text-white">Student Life in Taiwan</a></li>
+              <li class="mb-3 d-flex fw-bold"><i class="bi bi-arrow-right fs-xl"></i><a href="#"
+                  class="text-white">Accommodation</a></li>
+
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 ps-3 ps-lg-6">
+            <h4 class="text-white mb-3 mb-md-5">Stay Connected</h4>
+
+            <a class="btn btn-secondary shadow fw-bold mb-3 mb-md-5 ms-4" href="contact.html">CONTACT US</a>
+
+            <div class="social-icon ms-4">
+              <a class="btn-social bs-outline bs-facebook bs-lg me-2 mb-2" href="#">
+                <i class="bi-facebook"></i></a>
+              <a class="btn-social bs-outline bs-twitter bs-lg me-2 mb-2" href="#"><i class="bi bi-twitter"></i></a>
+              <a class="btn-social bs-outline bs-instagram bs-lg me-2 mb-2" href="#"><i class="bi bi-instagram"></i></a>
+              <a class="btn-social bs-outline bs-linkedin bs-lg me-2 mb-2" href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-link pb-2 pb-md-4">
+          <div class="d-md-flex d-block justify-content-between align-items-center">
+            <p class="text-white m-0">Copyright © 2022 TWFL. All Rights Reserved.</p>
+            <ul class="ps-0 d-flex justify-content-center m-0 align-items-center">
+              <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+              <li><a href="terms-of-use.html" class="text-white">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+      </main>
+      <!-- Back to top button-->
+      <a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><i class="btn-scroll-top-icon bi-chevron-up"></i>
+      </a>
+      <!--js libraries and plugins-->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+      <!-- Main theme script-->
+      <script src="assets/js/maciter.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+
+      <script>
+         $(document).ready(function(){
+       $('.carousel-slick').slick({
+         speed: 500,
+         slidesToShow: 4,
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 4000,
+         dots:true,
+         centerMode: true,
+         responsive: [{
+           breakpoint: 1024,
+           settings: {
+             slidesToShow: 3,
+             slidesToScroll: 1,
+             // centerMode: true,
+     
+           }
+     
+         }, {
+           breakpoint: 800,
+           settings: {
+             slidesToShow: 2,
+             slidesToScroll: 2,
+             dots: true,
+             infinite: true,
+     
+           }
+         },  {
+           breakpoint: 480,
+           settings: {
+             slidesToShow: 1,
+             slidesToScroll: 1,
+             dots: true,
+             infinite: true,
+             autoplay: true,
+             autoplaySpeed: 2000,
+           }
+         }]
+       });
+     });
+
+     $(document).ready(function(){
+         $('#submit').click(function()
+         {
+            var value = $ ('#datalist-input').val();
+            alert($('#datalist-options [value="' + value +'"]').data('value'));
+         });
+     });
+     </script>
+      
+   </body>'
+</html>
