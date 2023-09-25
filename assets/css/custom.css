@@ -100,6 +100,17 @@ input.gform_button.button {
 }
 
 .dropdown-menu .nav-link {
+  padding: 5px 14px !important;
+  color: #242424 !important;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  padding: 0px !important;
+}
+
+.dropdown-menu .nav-link {
   padding: 5px 14px;
   color: #242424 !important;
   font-size: .875rem;
@@ -1442,7 +1453,7 @@ display: none;
 
 .carousel-fade .carousel-caption {
   left: 50%;
-  top: 55%;
+  top: 50%;
   right: auto;
   text-align: left;
   width: 100%;
@@ -1736,7 +1747,10 @@ display: none;
 }
 
 @media (max-width: 1024px) {
-
+  .navbar-nav .nav-item .bi-chevron-down {
+    right: 0px;
+    top: 1.5rem;
+}
   .apply-now-bdr a::after,
   .apply-now-bdr a::before {
     width: 40%;
@@ -1796,6 +1810,9 @@ display: none;
 
 
 @media(max-width:1024px) {
+  .dropdown-item {
+    padding: 0.425rem 2rem !important;
+  }
 
   .carousel-item h1,
   .carousel-item h2 {

@@ -110,12 +110,12 @@
 
     <section class="hero-slider">
       <div class="carousel slide carousel-fade" id="carouselExample" data-bs-ride="carousel">
-        <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+        <!-- <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-left"></i>
           </span><span class="visually-hidden">Previous</span>
-        </a>
+        </a> -->
         <div class="carousel-inner carousel-zoom carousel-fade">
-          <div class="carousel-item active">
+          <!-- <div class="carousel-item">
             <img src="assets/img/banner/banner-1.jpg" class="img-fluid" />
             <div class="container">
               <div class="row">
@@ -136,22 +136,18 @@
 
             </div>
 
-          </div>
-          <div class="carousel-item ">
+          </div> -->
+          <div class="carousel-item active">
             <img src="assets/img/banner/banner.jpg" class="img-fluid" />
 
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <div class="carousel-caption position-absolute  zindex-1">
-                    <h1 class="fw-normal" style="color: #ffffff;"><span>Discover the Best </span></h1>
-                    <h2 class="text-primary"><span style="color: #ffffff;">Career Opportunities</span></h2>
-                    <p><span style="color: #ffffff;">The corporate world is fast-changing and one of the best ways to
-                        <br />stay ahead of the race is to break away from the common courses and forge unique career
-                        path
-                      </span></p>
-                    <p><a class="btn btn-primary shadow" href="https://demo.eneducation.co.uk/contact-us/">Enquiries</a>
-                    </p>
+                    <h1 class="fw-normal" style="color: #ffffff;"><span>We're Always Happy to Help! </span></h1>
+                    <!-- <h2 class="text-primary"><span style="color: #ffffff;">Career Opportunities</span></h2> -->
+                    <p><span style="color: #ffffff;">Get university offers from UK, USA, Canada, Australia and Malaysia.</span></p>
+                    <p><a class="btn btn-secondary shadow" href="#">Registration Form</a><a class="btn btn-secondary shadow ms-3" href="#">Services</a></p>
                   </div>
                 </div>
               </div>
@@ -159,7 +155,7 @@
 
 
           </div>
-          <div class="carousel-item ">
+          <!-- <div class="carousel-item ">
             <img src="assets/img/banner/banner02.jpg" class="img-fluid" />
 
             <div class="container">
@@ -204,13 +200,13 @@
             </div>
 
 
-          </div>
+          </div> -->
 
         </div>
 
-        <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next"><span
+        <!-- <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next"><span
             class="carousel-control-next-icon" aria-hidden="true">
-            <i class="bi bi-chevron-right"></i> </span><span class="visually-hidden">Next</span></a>
+            <i class="bi bi-chevron-right"></i> </span><span class="visually-hidden">Next</span></a> -->
       </div>
     </section>
 
@@ -944,7 +940,6 @@
   </div>
 
 
-
   <!--js libraries and plugins-->
   <script src="assets/js/jquery.min.js"></script>
   <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script> -->
@@ -953,174 +948,12 @@
   <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
 
   <!-- Main theme script-->
-  <script src="assets/js/maciter.js"></script>
+  <script src="assets/js/macinter.js"></script>
   <script src="assets/js/custom.js"></script>
   <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/slick.js"></script>
   <script src="assets/js/jquery.magnific-popup.js"></script>
 
-
-
-  <script>
-    $(document).ready(function () {
-      $('.carousel-slick').slick({
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        centerMode: true,
-        responsive: [{
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            // centerMode: true,
-
-          }
-
-        }, {
-          breakpoint: 800,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            dots: true,
-            infinite: true,
-
-          }
-        }, {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-          }
-        }]
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('.carousel-slick-testimonial').slick({
-        speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        centerMode: true,
-        responsive: [{
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            // centerMode: true,
-
-          }
-
-        }, {
-          breakpoint: 800,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 2,
-            dots: true,
-            infinite: true,
-
-          }
-        }, {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: true,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-          }
-        }]
-      });
-    });
-
-
-    $(document).ready(function () {
-      $(".customer-logos").slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 4
-            }
-          },
-          {
-            breakpoint: 520,
-            settings: {
-              slidesToShow: 3
-            }
-          }
-        ]
-      });
-    });
-
-    $(document).ready(function () {
-
-      // Gets the video src from the data-src on each button
-
-      var $videoSrc;
-      $('.video-btn').click(function () {
-        $videoSrc = $(this).data("src");
-      });
-      console.log($videoSrc);
-
-
-
-      // when the modal is opened autoplay it  
-      $('#myModal').on('shown.bs.modal', function (e) {
-
-        // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-        $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-      })
-
-
-
-      // stop playing the youtube video when I close the modal
-      $('#myModal').on('hide.bs.modal', function (e) {
-        // a poor man's stop video
-        $("#video").attr('src', $videoSrc);
-      })
-
-
-
-
-
-
-      // document ready  
-    });
-
-    $(document).ready(function () {
-    $("#myModal").on('hidden.bs.modal', function (e) {
-        $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
-    });
-  });
-
-  $(document).ready(function(){
-      $(".navbar-nav .dropdown .bi-chevron-down").click(function(){
-        $(this).$(".dropdown-menu").toggleClass("dropdown-block");
-      });
-     });
-
-
-  </script>
 </body>
 
 </html>
