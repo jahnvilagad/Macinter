@@ -5960,7 +5960,7 @@ fieldset:disabled .btn {
 	background-color: #fff;
 	background-clip: padding-box;
 	border: 1px solid #e9e9f2;
- 	border-radius: 5px;
+ 	/* border-radius: 5px; */
 	box-shadow: -0.0625rem 0 .625rem 0 rgba(0, 0, 0, .07), .3125rem 1.25rem 2.5rem 0 rgba(0, 0, 0, .04)
 }
 
@@ -6112,16 +6112,17 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item {
-	display: block;
-	width: 100%;
-	padding: .425rem 1.3rem;
-	clear: both;
-	font-weight: 400;
-	color: #5a5b75;
-	text-align: inherit;
-	white-space: nowrap;
-	background-color: transparent;
-	border: 0
+    display: block;
+    width: 100%;
+    padding: 5px 14px !important;
+    clear: both;
+    font-weight: 400;
+    color: rgb(90, 91, 117);
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0px;
+    line-height: 36px;
 }
 
 .dropdown-item:hover,
@@ -6697,6 +6698,16 @@ fieldset:disabled .btn {
 		height: 2px;
 		background: #e9e9f2;
 	}
+	.navbar-expand-lg .navbar-nav .nav-item.dropdown.active a:after, .navbar-expand-lg .navbar-nav .nav-item.dropdown:hover a:after {
+		
+		bottom: -1px;
+	
+	}
+	.navbar-expand-lg .nav-item.dropdown .dropdown-menu .nav-item a:after {
+		
+		bottom: -1px;
+	
+	}
 	.navbar-expand-lg .navbar-nav .nav-item:last-child a:after{
 		background: unset;
 	}
@@ -7107,7 +7118,7 @@ fieldset:disabled .btn {
 .card-footer {
 	padding: .75rem 1.5rem;
 	background-color: transparent;
-	border-top: 1px solid rgba(0, 0, 0, .085)
+	/* border-top: 1px solid rgba(0, 0, 0, .085) */
 }
 
 .card-footer:last-child {
@@ -10975,7 +10986,7 @@ ul.ps-0 {
 
 .bg-secondary {
 	--bs-bg-opacity: 1;
-	background-image: linear-gradient(to right, rgb(35, 51, 139), rgb(198, 6, 92), rgb(244, 127, 24)) !important;
+	background-color: #26308F;
 }
 
 .bg-success {
@@ -16437,8 +16448,9 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .btn-outline-secondary {
-	border-color: #dfdfeb;
-	color: #5a5b75
+    border-color: #26308f;
+    color: #5a5b75;
+    border: 1px solid;
 }
 
 .btn-outline-secondary:hover,
@@ -16447,8 +16459,8 @@ input[type=search]::-webkit-search-results-decoration {
 .btn-outline-secondary.active,
 .btn-outline-secondary.show {
 	border-color: #9e9fb4;
-	background-color: transparent;
-	color: #4a4b65 !important
+	background-color: #26308f;
+	color: #fff !important
 }
 
 .btn-outline-light {
@@ -18339,16 +18351,16 @@ input[type=search]::-webkit-search-results-decoration {
 	}
 	.navbar-expand-lg .dropdown-menu .dropdown-menu {
 		display: none;
-		top: 0;
-		right: auto;
-		left: 100%;
+		top: 8px;
+		right: 100%;
+		left: auto;
 		width: auto;
 		margin-top: -0.5rem;
 		margin-right: 0;
 		margin-left: -0.25rem;
 		padding-right: 0;
 		padding-left: 0;
-		border-radius: .75rem;
+		/* border-radius: .75rem; */
 		background-color: #fff
 	}
 	.navbar-expand-lg .dropdown-menu.show {

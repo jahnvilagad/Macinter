@@ -6,58 +6,72 @@
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
  .scrtabs-tab-container * {
-    box-sizing: border-box; }
-  
-  .scrtabs-tab-container {
-    height: 60px; }
-    .scrtabs-tab-container .tab-content {
-      clear: left; }
-  
-  .scrtabs-tabs-fixed-container {
-    float: left;
-    height: 55px;
-    overflow: hidden;
-    width: 100%; }
-  
-  .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
-    overflow-x: auto; }
-    .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container::-webkit-scrollbar {
-      display: none; }
-  
-  .scrtabs-tabs-movable-container {
-    position: relative; }
-    .scrtabs-tabs-movable-container .tab-content {
-      display: none; }
-  
-  .scrtabs-tab-scroll-arrow {
-    border-top: none;
-    color: #428bca;
-    cursor: pointer;
-    display: none;
-    float: left;
-    font-size: 12px;
-    height: 42px;
-    margin-bottom: -1px;
-    padding-left: 2px;
-    padding-top: 13px;
-    width: 20px; }
-   
-  .scrtabs-tab-scroll-arrow.scrtabs-disable {
-    color: #ddd;
-    cursor: default; }    
-    .right, .left {
-      border: solid black;
-      border-width: 0 2px 2px 0;
-      display: inline-block;
-      padding: 5px;
-    }
-  
-  .right {
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
+  box-sizing: border-box; }
+
+.scrtabs-tab-container {
+  height: 60px; }
+  .scrtabs-tab-container .tab-content {
+    clear: left; }
+
+.scrtabs-tabs-fixed-container {
+  float: left;
+  height: 55px;
+  overflow: hidden;
+  width: 100%; }
+
+.scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container {
+  overflow-x: auto; }
+  .scrtabs-allow-scrollbar .scrtabs-tabs-fixed-container::-webkit-scrollbar {
+    display: none; }
+
+.scrtabs-tabs-movable-container {
+  position: relative; }
+  .scrtabs-tabs-movable-container .tab-content {
+    display: none; }
+
+.scrtabs-tab-scroll-arrow {
+  border-top: none;
+  color: #428bca;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 12px;
+  height: 42px;
+  margin-bottom: -1px;
+  padding-left: 2px;
+  padding-top: 18px;
+  width: 20px; }
+ 
+.scrtabs-tab-scroll-arrow.scrtabs-disable {
+  color: #ddd;
+  cursor: default; }    
+  .right, .left {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
   }
-  
-  .left {
-      transform: rotate(135deg);
-      -webkit-transform: rotate(135deg);
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+@media (min-width:768px) {
+  .scrtabs-tab-scroll-arrow{
+    display: none !important;
   }
+  .scrtabs-tabs-fixed-container ,.scrtabs-tabs-movable-container{
+    width: auto !important;
+    height: auto;
+  }
+  .scrtabs-tab-container{
+    height: auto;
+  }
+}
+ 

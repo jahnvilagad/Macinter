@@ -19,6 +19,10 @@
   <!-- Main Styles + Bootstrap-->
   <link rel="stylesheet" media="screen" href="assets/css/maciter.css">
   <link rel="stylesheet" media="screen" href="assets/css/custom.css">
+  <link rel="stylesheet" media="screen" href="assets/css/slick.min.css">
+  <link rel="stylesheet" media="screen" href="assets/css/slick-theme.min.css">
+  <link rel="stylesheet" media="screen" href="assets/css/jquery.scrolling-tabs.css" />
+
 
 </head>
 <!-- Body-->
@@ -32,14 +36,23 @@
   <main class="page-wrapper">
     <nav class="navbar navbar-light" style="background-color: #26308F;">
       <div class="container px-0 px-md-3">
-        <div class="navbar-brand fs-base">
+        <div class="navbar-brand fs-base d-flex justify-content-between">
           <ul class="list-unstyled d-md-flex d-block align-items-center m-0">
-            <li class="text-white m-0"> Have any question?<a href="tel:+123 456 7890"
-                class="fw-bold text-white ms-2">+123 456 7890</a></li>
-            <li class="text-white m-0"><i class="bi bi-envelope-open me-2"></i>Email Us : <a href="tel:Info@MAC International.com"
-                class="fw-bold text-white ms-1">Info@MAC International.com</a></li>
+            <li class="text-white m-0"><a href="tel:+447525426668" class="fw-bold text-white ms-md-2"><i
+                  class="bi bi-telephone me-2"></i>+447525426668</a></li>
+            <li class="text-white m-0"><i class="bi bi-envelope-open me-2"></i><a href="tel:admin@macinter.co"
+                class="fw-bold text-white ms-1">admin@macinter.co</a></li>
+
+          </ul>
+
+        </div>
+        <div class="d-flex align-items-center order-lg-3 ms-auto ms-lg-auto">
+          <ul class="list-unstyled d-md-flex d-none align-items-center m-0 me-3">
+            <li class="text-white m-0"> <a href="#" class="fw-bold text-white ms-2">Services </a></li>
+            <li class="text-white m-0"> <a href="#" class="fw-bold text-white ms-2">Agents </a></li>
           </ul>
         </div>
+
       </div>
     </nav>
 
@@ -93,79 +106,153 @@
       </div>
     </header>
 
-    <section class="banner bg-dark py-7" data-jarallax data-speed="0.25">
-        <div class="breadcrumb-bg" style="background-image: url(assets/img/feature/about-breadcrumbs.jpg);"></div>
-        <div class="container text-center">
-           <div class="row">
-              <div class="col-md-12 col-lg-8">
-                 <div class="text-start">
-                    <nav aria-label="breadcrumb">
-                       <ol class="breadcrumb breadcrumb-light ">
-                          <li class="breadcrumb-item fs-md fw-bold text-white">You are Here: <a href="index.html"> Home </a></li>
-                          <li class="breadcrumb-item fs-md fw-bold text-white active" aria-current="page"> Privacy Policy </li>
-                       </ol>
-                    </nav>
-                    <h2 class="fs-1 mt-2 fw-bold text-white">Privacy Policy</h2>
-                 </div>
-              </div>
-           </div>
+ <!-- Hero-->
+ <section class="bg-primary mt-10 py-3 py-md-5 cart">
+    <div class="container">
+        <nav class="" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item me-0 me-md-4"><a href="#" class="text-white">Cart</a><span><i class="bi bi-chevron-right text-white"></i></span></li>
+            <li class="breadcrumb-item me-0 me-md-4"><a href="#" class="text-white">Checkout</a><span><i class="bi bi-chevron-right text-white"></i></span></li>
+            <li class="breadcrumb-item me-0 me-md-4 active text-white" aria-current="page">Order Complete</a></li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+   <!--order-shipping section-->
+   <section class="pt-3 pt-lg-6 container order-confirmation">
+    <div class="row">
+        <div class="col-md-12 col-lg-12">
+             <div class="text-center">
+                <h2 class="text-playfair text-primary">Thank you for your order</h2>
+
+                <p class="mb-1">Hi Jennifer, we’ve recevied order #A1625943 and are working on it now.</p>
+                <p>We’ll email you an update when we’ve shipped it.</p>
+
+                <a class="btn btn-primary fs-lg">View Your Order Details</a>
+             </div>
         </div>
-     </section>
+    </div>
+   </section>
+   <section class="container pt-5">
+        <div class="row order-confirmation">
+            <div class="col-md-12 col-lg-12">
+                <div class="bg-secondary p-3 rounded-3">
+                    <h2>Order & Shipping Info</h2>
+                </div>
 
-     <section class="container py-4 py-md-7">
-            <div>
-                <h2 class="fs-3">Introduction</h2>
-                <p class="text-justify">A privacy policy is a statement or legal document (in privacy law) that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.[1] Personal information can be anything that can be used to identify an individual, </p>
+                <div class="row mt-5 px-3 px-md-6">
+                    <div class="col-md-6 p-0">
+                        <p>Order Details</p>
+                    </div>
+                    <div class="col-md-6 p-0 px-md-grid-gutter">
+                        <p>Shipping Address</p>
+                    </div>
+                </div>
+                <div class="row border-top">
+                    <div class="col-md-6 ps-3 ps-md-6">
+                        <div class="row pt-3">
+                            <div class="col-md-6 col-6">
+                                <p class="mb-0">Order :</p>
+                            </div>
+                            <div class="col-md-6 col-6">
+                                <p class="text-primary mb-0">#A1625943</p>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-md-6 col-6">
+                                <p class="mb-0">Customer Id:</p>
+                            </div>
+                            <div class="col-md-6 col-6">
+                                <p class="mb-0">#1325665</p>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col-md-6 col-6">
+                                <p class="mb-0">Shipping Method :</p>
+                            </div>
+                            <div class="col-md-6 col-6">
+                                <p class="mb-0">Standard</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="pt-3">Jennifer Jacquinot<br>
+                            904 Mckenderi St<br>
+                            San Jose, CA 9546</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <!--order-shipping section-->
+
+   <!--item-order section-->
+   <section class="pt-2 pt-md-5 container">
+    <div class="row order-confirmation">
+        <div class="col-md-12 col-lg-12">
+            <div class="bg-secondary p-3 rounded-3">
+                <h2>Items Ordered</h2>
+            </div>
+                <div class="table-responsive ">
+                    <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Maintaining Financial Records (FA2)</td>
+                            <td>£549</td>
+                            <td>£549</td>
+                        </tr>
+                        <tr>
+                            <td>Maintaining Financial Records (FA2)</td>
+                            <td>£549</td>
+                            <td>£549</td>
+                        </tr>
+                    </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--item-order section-->
+
+   <!--purchase summary section-->
+   <section class="container py-4">
+    <div class="row order-confirmation justify-content-center">
+        <div class="col-md-12 col-lg-6">
+            <div class="bg-secondary p-3 rounded-3">
+                <h2>Purchase Summary</h2>
             </div>
 
-            <div>
-                <h2 class="fs-3">What Information is collected about you?</h2>
-                <p class="text-justify">A privacy policy is a statement or legal document (in privacy law) that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.[1] Personal information can be anything that can be used to identify an individual, not limited to the person's name, address, date of birth, marital status, contact information, ID issue, and expiry date, financial records, credit information, medical history, where one travels, and intentions to acquire goods and services.[2] In the case of a business, it is often a statement that declares a party's policy on how it collects, stores, and releases personal information it collects. It informs the client what specific information is collected, and whether it is kept confidential, shared with partners, or sold to other firms or enterprises[3].[4] Privacy policies typically represent a broader, more generalized treatment, as opposed to data use statements, which tend to be more detailed and specific.</p>
-
-                <p class="text-justify"> The exact contents of a certain privacy policy will depend upon the applicable law and may need to address requirements across geographical boundaries and legal jurisdictions. Most countries have their own legislation and guidelines of who is covered, what information can be collected, and what it can be used for. In general, data protection laws in Europe cover the private sector, as well as the public sector. Their privacy laws apply not only to government operations but also to private enterprises and commercial transactions.[5]</p>  
+            <div class="py-3">
+                <div class="d-flex align-items-center justify-content-between pb-3">
+                    <p class="mb-0">Subtotal:</p>
+                    <p class="mb-0">£1098</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between pb-3 border-bottom">
+                    <p class="mb-0">Estimated Sales Tax:</p>
+                    <p class="mb-0">£200</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between pb-3">
+                <p class="mb-0"><b>Order Total</b></p>
+                <p class="mb-0"><b>£200</b></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-between pb-3">
+                <p class="mb-0 text-primary">Your Payment Method</p>
+                <p class="mb-0 text-primary">MasterCard</p>
             </div>
 
-            <div>
-                <h2 class="fs-3">Our Use of Information</h2>
-                <p class="text-justify">In 1968, the Council of Europe began to study the effects of technology on human rights, recognizing the new threats posed by computer technology that could link and transmit in ways not widely available before. In 1969 the Organisation for Economic Co-operation and Development (OECD) began to examine the implications of personal information leaving the country. All this led the council to recommend that policy be developed to protect personal data held by both the private and public sectors, leading to Convention 108. In 1981, Convention for the Protection of Individuals with regard to Automatic Processing of Personal Data (Convention 108) was introduced. One of the first privacy laws ever enacted was the Swedish Data Act in 1973, followed by the West German Data Protection Act in 1977 and the French Law on Informatics, Data Banks and Freedoms in 1978.[5]</p>
-
-                <p class="text-justify">In 1968, the Council of Europe began to study the effects of technology on human rights, recognizing the new threats posed by computer technology that could link and transmit in ways not widely available before. In 1969 the Organisation for Economic Co-operation and Development (OECD) began to examine the implications of personal information leaving the country. All this led the council to recommend that policy be developed to protect personal data held by both the private and public sectors</p>
+            <div class="text-center pt-4">
+                <a class="btn btn-primary fs-lg">Download Receipt</a>
+                <p class="pt-3">If you have any questions about your order,please <a class="text-primary" href="contact.html">contact us</a></p>
             </div>
-
-            <div>
-                <h2 class="fs-3">Cookies</h2>
-                <p class="text-justify">In 1968, the Council of Europe began to study the effects of technology on human rights, recognizing the new threats posed by computer technology that could link and transmit in ways not widely available before. In 1969 the Organisation for Economic Co-operation and Development (OECD) began to examine the implications of personal information leaving the country. All this led the council to recommend that policy be developed to protect personal data held by both the private and public sectors</p>
-            </div>
-
-            <div>
-                <h2 class="fs-3">Security</h2>
-                <p class="text-justify">We will use technical and organisational measures to safeguard your personal information. While we will use reasonable endeavours to safeguard your personal information, the use of the internet is not entirely secure and we cannot guarantee the security or integrity of any personal information transferred from you or to you through the internet.</p>
-            </div>
-
-            <div>
-                <h2 class="fs-3">Links</h2>
-                <p class="text-justify">We will use technical and organisational measures to safeguard your personal information. While we will use reasonable endeavours to safeguard your personal information, the use of the internet is not entirely secure and we cannot guarantee the security or integrity of any personal information transferre</p>
-            </div>
-
-            <div>
-                <h2 class="fs-3">Note About Children’s Privacy Issues</h2>
-                <p class="text-justify">The United States does not have a specific federal regulation establishing universal implementation of privacy policies. Congress has, at times, considered comprehensive laws regulating the collection of information online, such as the Consumer Internet Privacy Enhancement Act[9] and the Online Privacy Protection Act of 2001,[10] but none have been enacted. In 2001, the FTC stated an express preference for "more law enforcement, not more laws"[11] and promoted continued focus on industry self-regulation.</p>
-            </div>
-
-            <div>
-                <h2 class="fs-3">Modifying or Removing Personal Information</h2>
-                <p class="text-justify">The Act establishes the Privacy Commissioner of Canada as the Ombudsman for addressing any complaints that are filed against organizations. The Commissioner works to resolve problems through voluntary compliance, rather than heavy-handed enforcement. The Commissioner investigates complaints, conducts audits, promotes awareness of and undertakes research about privacy matters.[29]</p>
-            </div>
-
-            <div>
-                <h2 class="fs-3">Contacting Us</h2>
-                <p class="text-justify">If you have any questions about this Privacy Policy or other matters that relate to it, you may contact us via our normal email or telephone numbers.</p>
-            </div>
-     </section>
+        </div>
+    </div>
+   </section>
+   <!--purchase summary section-->
 
 
-
-     <footer class="bg-secondary pt-3 pt-md-6 footer">
+    <footer class="bg-primary pt-3 pt-md-6 footer">
       <div class="container">
 
         <div class="row pt-0 pt-md-4 footer-menu-link">
@@ -240,15 +327,42 @@
   <a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><i class="btn-scroll-top-icon bi-chevron-up"></i>
   </a>
 
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+          </button>
+          <!-- 16:9 aspect ratio -->
+          <div class="ratio ratio-16x9">
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+              allow="autoplay"></iframe>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 
   <!--js libraries and plugins-->
   <script src="assets/js/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script> -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+
   <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+
   <!-- Main theme script-->
-  <script src="assets/js/maciter.js"></script>
+  <script src="assets/js/macinter.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/jquery.scrolltabs.js"></script>
+
 </body>
 
 </html>
