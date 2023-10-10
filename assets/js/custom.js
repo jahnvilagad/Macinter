@@ -214,3 +214,10 @@
       }]
     });
   });
+
+
+  $(document).ready(function(){
+    $(".bi-x").click(function(){
+      $(".mac-indicator").addClass("d-none");
+    });
+  });
