@@ -216,8 +216,30 @@
   });
 
 
+<<<<<<< HEAD
   $(document).ready(function(){
     $(".bi-x").click(function(){
       $(".mac-indicator").addClass("d-none");
     });
   });
+=======
+  $(function() {
+    'use strict';
+
+
+    $(activate);
+
+
+    function activate() {
+
+    $('.dashboard .nav-tabs')
+        .scrollingTabs({
+        enableSwiping: true
+        })
+        .on('ready.scrtabs', function() {
+        $('.tab-content').show();
+        });
+
+    }
+}());
+>>>>>>> 4e4260de8ed23652c85c4193654933b9283b4c2b
