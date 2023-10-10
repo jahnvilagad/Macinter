@@ -216,13 +216,12 @@
   });
 
 
-<<<<<<< HEAD
   $(document).ready(function(){
     $(".bi-x").click(function(){
       $(".mac-indicator").addClass("d-none");
     });
   });
-=======
+
   $(function() {
     'use strict';
 
@@ -242,4 +241,3 @@
 
     }
 }());
->>>>>>> 4e4260de8ed23652c85c4193654933b9283b4c2b

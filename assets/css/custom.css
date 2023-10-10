@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-@font-face {
-  font-family: "AMERSN";
-  src: url("../fonts/AMERSN.ttf") format("truetype")
-}
-
 .page-404 {
   position: relative;
   width: 22rem;
@@ -1765,7 +1760,6 @@ display: none;
 .login .tab-content .card-header {
   color: #26308F;
   font-size: 36px;
-  font-family: "AMERSN", sans-serif;
 }
 
 .login .nav-link {
@@ -1773,7 +1767,6 @@ display: none;
 }
 
 .login .nav-link {
-  font-family: "AMERSN", sans-serif;
   cursor: pointer;
   border: unset !important;
 }
@@ -1823,7 +1816,6 @@ display: none;
 .cart-total h2 {
   border-bottom: 1px solid #08498E;
   font-size: 24px;
-  font-family:"AMERSN", sans-serif;
 }
 
 .total {
@@ -1833,7 +1825,6 @@ display: none;
 }
 
 .cart-table th {
-  font-family:"AMERSN", sans-serif;
   color: #08498E;
   font-size: 20px;
   font-weight: 500;
@@ -1860,7 +1851,6 @@ display: none;
   font-weight: normal;
   font-size: 24px;
   padding-bottom: 6px;
-  font-family:"AMERSN", sans-serif;
   color: #08498E;
   border-bottom: 1px solid #08498E;
 }
@@ -1903,6 +1893,20 @@ display: none;
   font-size: 18px;
   margin-bottom: 0;
   font-weight: 400;
+}
+.mac-service {
+  width: 600px;
+  height: 250px;
+}
+
+.mac-service img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.course-table table td{
+  padding: .75rem .75rem;
 }
 
 @media screen and (max-width: 1440px) {
@@ -1957,6 +1961,9 @@ display: none;
 }
 
 @media (max-width: 1024px) {
+  .mac-service {
+    width: 100%;
+  }
   .navbar-nav .nav-item .bi-chevron-down {
     right: 0px;
     top: 1.5rem;
