@@ -1920,8 +1920,8 @@ display: none;
 }
 
 .icon-sm {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
   
 }
 
@@ -1938,8 +1938,8 @@ display: none;
   background-color: #FAFAFA;
 }
 
-.quantity-field .border{
-  border: 1px solid #dddddd;
+.shop-detail-number .border{
+  border: 1px solid #dddddd !important;
 }
 
 
