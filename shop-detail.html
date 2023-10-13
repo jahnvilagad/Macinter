@@ -19,8 +19,6 @@
     <!-- Main Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="assets/css/maciter.css">
     <link rel="stylesheet" media="screen" href="assets/css/custom.css">
-    <link rel="stylesheet" media="screen" href="assets/css/slick.min.css">
-    <link rel="stylesheet" media="screen" href="assets/css/slick-theme.min.css">
     <link rel="stylesheet" media="screen" href="assets/css/jquery.scrolling-tabs.css" />
 
 
@@ -137,14 +135,14 @@
             </div>
         </section>
 
-        <section class="container py-6">
+        <section class="container py-4">
             <div class="row">
                 <div class="col-md-7">
                     <div class="">
                         <img src="assets/img/feature/accomodation.jpg" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 mt-3 mt-md-0">
                     <h2 class="mb-2 fs-4">Lorem ipsum dolor sit amet</h2>
                     <h4 class="text-playfair text-primary">£575</h4>
                     <div class="">
@@ -156,14 +154,76 @@
                         </ul>
                     </div>
                     <div class="d-flex align-items-center shop-detail-number">
-                        <div class="input-group d-inline-block">
-                            <input type="button" value="-" class="button-minus border  icon-shape icon-sm bg-none" data-field="quantity">
-                            <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border text-center icon-sm">
-                            <input type="button" value="+" class="button-plus border icon-shape icon-sm bg-none" data-field="quantity">
-                         </div>
+                        <div class="input-group">
+                            <input type="button" value="-" class="button-minus border  icon-shape icon-sm bg-none"
+                                data-field="quantity">
+                            <input type="number" step="1" max="10" value="1" name="quantity"
+                                class="quantity-field border text-center icon-sm">
+                            <input type="button" value="+" class="button-plus border icon-shape icon-sm bg-none"
+                                data-field="quantity">
+                        </div>
                         <a class="btn btn-primary" href="cart.html">Add to cart</a>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="container py-4 about-us-bg">
+            <!-- Nav tabs -->
+            <div class="pro-detail">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a href="#courses1" class="nav-link active fw-bold" data-bs-toggle="tab" role="tab">
+                            <i class="fi-home me-2"></i>Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses2" class="nav-link  fw-bold" data-bs-toggle="tab" role="tab">
+                            <i class="fi-user me-2"></i> Review </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- Tabs content -->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="courses1" role="tabpanel">
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <h3 class="">Lorem ipsum dolor sit amet</h3>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley of type and
+                                scrambled it to make a type specimen book.</p>
+                                <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and
+                                    scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tab-pane fade" id="courses2" role="tabpanel">
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <h3 class="">Lorem ipsum dolor sit amet</h3>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley of type and
+                                scrambled it to make a type specimen book.</p>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley of type and
+                                scrambled it to make a type specimen book.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
         </section>
 
@@ -357,7 +417,6 @@
     <!-- Main theme script-->
     <script src="assets/js/macinter.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/jquery.scrolltabs.js"></script>
 
 </body>

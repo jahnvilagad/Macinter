@@ -222,22 +222,42 @@
     });
   });
 
-  $(function() {
-    'use strict';
+//   $(function() {
+//     'use strict';
 
 
-    $(activate);
+//     $(activate);
 
 
-    function activate() {
+//     function activate() {
 
-    $('.dashboard .nav-tabs')
-        .scrollingTabs({
-        enableSwiping: true
-        })
-        .on('ready.scrtabs', function() {
-        $('.tab-content').show();
-        });
+//     $('.dashboard .nav-tabs')
+//         .scrollingTabs({
+//         enableSwiping: true
+//         })
+//         .on('ready.scrtabs', function() {
+//         $('.tab-content').show();
+//         });
 
-    }
+//     }
+// }());
+
+$(function() {
+  'use strict';
+
+
+  $(activate);
+
+
+  function activate() {
+
+  $('.nav-tabs')
+      .scrollingTabs({
+      enableSwiping: true
+      })
+      .on('ready.scrtabs', function() {
+      $('.tab-content').show();
+      });
+
+  }
 }());

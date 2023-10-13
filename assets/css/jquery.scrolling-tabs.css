@@ -66,11 +66,11 @@
   .scrtabs-tab-scroll-arrow{
     display: none !important;
   }
-  .scrtabs-tabs-fixed-container ,.scrtabs-tabs-movable-container{
+  .dashboard .scrtabs-tabs-fixed-container ,.dashboard .scrtabs-tabs-movable-container{
     width: auto !important;
     height: auto;
   }
-  .scrtabs-tab-container{
+  .dashboard .scrtabs-tab-container{
     height: auto;
   }
 }

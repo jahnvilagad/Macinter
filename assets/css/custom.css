@@ -1930,7 +1930,7 @@ display: none;
 }
 
 .shop-detail-number .input-group{
-  width: 35%;
+  width: 30%;
   
 }
 
@@ -1940,6 +1940,11 @@ display: none;
 
 .shop-detail-number .border{
   border: 1px solid #dddddd !important;
+}
+
+.shop-detail-number .button-minus, .shop-detail-number .button-plus {
+  font-size: 30px;
+  line-height: 0;
 }
 
 
@@ -2190,6 +2195,9 @@ display: none;
 }
 
 @media (max-width:767px) {
+  .shop-detail-number .input-group {
+    width: 45%;
+}
   .cart-total .btn {
     width: 100%;
 }
