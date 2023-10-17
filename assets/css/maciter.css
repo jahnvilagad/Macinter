@@ -4265,7 +4265,7 @@ progress {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	border-radius: 5px !important;
+	/* border-radius: 5px !important; */
 	box-shadow: 0 0 0 0 transparent;
 	transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out
 }
@@ -5890,7 +5890,7 @@ fieldset:disabled .btn {
 .btn-group-sm>.btn {
 	padding: .425rem 1rem;
 	font-size: 0.875rem;
-	border-radius: .5rem
+	/* border-radius: .5rem */
 }
 
 .fade {
@@ -7045,7 +7045,7 @@ fieldset:disabled .btn {
 	background-color: #fff;
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, .085);
-	border-radius: 1rem
+	/* border-radius: 1rem */
 }
 
 .card>hr {
@@ -7108,9 +7108,9 @@ fieldset:disabled .btn {
 	border-bottom: 1px solid rgba(0, 0, 0, .085)
 }
 
-.card-header:first-child {
+/* .card-header:first-child {
 	border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0
-}
+} */
 
 .card-footer {
 	padding: .75rem 1.5rem;
@@ -7155,8 +7155,7 @@ fieldset:disabled .btn {
 	width: 100%
 }
 
-.card-img,
-.card-img-top {
+.card-img {
 	border-top-left-radius: calc(1rem - 1px);
 	border-top-right-radius: calc(1rem - 1px)
 }
@@ -16790,7 +16789,7 @@ input[type=search]::-webkit-search-results-decoration {
 	padding: 0;
 	border: 1px solid transparent;
 	transition: border-color .25s ease-in-out, background-color .25s ease-in-out, color .25s ease-in-out;
-	border-radius: .5rem;
+	/* border-radius: .5rem; */
 	background-color: #f3f3f9;
 	color: #6c6d89;
 	font-size: .9375rem;
@@ -16828,7 +16827,7 @@ input[type=search]::-webkit-search-results-decoration {
 .bs-lg {
     width: 35px;
     height: 35px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     font-size: 1rem;
 }	
 
