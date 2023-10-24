@@ -177,7 +177,7 @@
   $(document).ready(function(){
     $('.carousel-slick-testimonial').slick({
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 4000,
