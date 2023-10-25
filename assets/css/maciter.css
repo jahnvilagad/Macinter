@@ -4565,10 +4565,11 @@ textarea.form-control-lg {
 }
 
 .form-check {
-	display: block;
-	min-height: 1.5rem;
-	padding-left: 1.5em;
-	margin-bottom: .125rem
+    display: flex;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+    align-items: center;
 }
 
 .form-check .form-check-input {
@@ -4577,11 +4578,11 @@ textarea.form-control-lg {
 }
 
 .form-check-input {
-	width: 1em;
-	height: 1em;
-	margin-top: .25em;
-	vertical-align: top;
-	background-color: #e6e6f0;
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #26308f;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -15904,7 +15905,8 @@ div.code-toolbar>.toolbar>.toolbar-item>button:focus {
 }
 
 .form-check-label {
-	font-size: .875rem
+    font-size: .875rem;
+    margin-left: 10px;
 }
 
 .col-form-label {
@@ -16483,7 +16485,7 @@ input[type=search]::-webkit-search-results-decoration {
 [class*=" btn-translucent-"]:active,
 [class*=" btn-translucent-"].active,
 [class*=" btn-translucent-"].show {
-	color: #fff
+	color: #737491
 }
 
 .btn-translucent-primary {
@@ -18988,7 +18990,7 @@ a.card-body:hover {
 .card-body,
 .card-header {
 	position: relative;
-	z-index: 5
+	/* z-index: 5 */
 }
 
 .card-curved-body {
